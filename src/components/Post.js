@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+
+export default class Post extends Component {
+  render() {
+    return (
+      <div className="post">
+        <img src={this.props.src} alt={this.props.alt} />
+        <div className="post__name">
+          some account
+        </div>
+        <div className="post__descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sed esse quasi dolorum officiis quod iste non laboriosam delectus dolores, possimus iure dignissimos commodi eveniet, nisi doloremque aut ipsum rerum.</p>
+        </div>
+      </div>
+    );
+  }
+}
